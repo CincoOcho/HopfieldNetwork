@@ -2,90 +2,284 @@
 
 
 using namespace std;
+char matrix1[7][7];
+int matrix2[7][7];
+void matrixA()
+{
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrix1[x][y]=0;
+        }
+    }
+//---------------------------------------
+    matrix1[0][3]=1;
+    matrix1[1][2]=1;
+    matrix1[1][4]=1;
+    matrix1[2][1]=1;
+    matrix1[2][5]=1;
+    matrix1[3][0]=1;
+    matrix1[3][6]=1;
+    matrix1[4][0]=1;
+    matrix1[4][1]=1;
+    matrix1[4][2]=1;
+    matrix1[4][3]=1;
+    matrix1[4][4]=1;
+    matrix1[4][5]=1;
+    matrix1[4][6]=1;
+    matrix1[5][0]=1;
+    matrix1[5][6]=1;
+    matrix1[6][0]=1;
+    matrix1[6][6]=1;
 
-void matrixA(){
+    cout<<"imprimiendo valor de A\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrix1[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    system("pause");
+    system("cls");
 
 
+}
+void matrixE()
+{
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrix1[x][y]=0;
+        }
+    }
+//---------------------------------------
+    matrix1[0][0]=1;
+    matrix1[0][1]=1;
+    matrix1[0][2]=1;
+    matrix1[0][3]=1;
+    matrix1[0][4]=1;
+    matrix1[0][5]=1;
+    matrix1[0][6]=1;
+    matrix1[1][0]=1;
+    matrix1[2][0]=1;
+    matrix1[3][0]=1;
+    matrix1[3][1]=1;
+    matrix1[3][2]=1;
+    matrix1[3][3]=1;
+    matrix1[3][4]=1;
+    matrix1[4][0]=1;
+    matrix1[5][0]=1;
+    matrix1[6][0]=1;
+    matrix1[6][1]=1;
+    matrix1[6][2]=1;
+    matrix1[6][3]=1;
+    matrix1[6][4]=1;
+    matrix1[6][5]=1;
+    matrix1[6][6]=1;
+
+    cout<<"imprimiendo valor de E\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrix1[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    system("pause");
+    system("cls");
 
 
+}
+
+void matrixI()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrix1[x][y]=0;
+        }
+    }
+
+    //---------------------------------------
+
+    matrix1[0][1]=1;
+    matrix1[0][2]=1;
+    matrix1[0][3]=1;
+    matrix1[0][4]=1;
+    matrix1[0][5]=1;
+    matrix1[1][3]=1;
+    matrix1[2][3]=1;
+    matrix1[3][3]=1;
+    matrix1[4][3]=1;
+    matrix1[5][3]=1;
+    matrix1[6][1]=1;
+    matrix1[6][2]=1;
+    matrix1[6][3]=1;
+    matrix1[6][4]=1;
+    matrix1[6][5]=1;
+
+
+    cout<<"imprimiendo valor de I\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrix1[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    system("pause");
+    system("cls");
+
+
+}
+
+void matrixO()
+{
+
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrix1[x][y]=0;
+        }
+    }
+
+    //---------------------------------------
+    matrix1[0][2]=1;
+    matrix1[0][3]=1;
+    matrix1[0][4]=1;
+    matrix1[1][1]=1;
+    matrix1[1][5]=1;
+    matrix1[2][0]=1;
+    matrix1[2][6]=1;
+    matrix1[3][0]=1;
+    matrix1[3][6]=1;
+    matrix1[4][0]=1;
+    matrix1[4][6]=1;
+    matrix1[5][1]=1;
+    matrix1[5][5]=1;
+    matrix1[6][2]=1;
+    matrix1[6][3]=1;
+    matrix1[6][4]=1;
+
+    cout<<"imprimiendo valor de O\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrix1[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    system("pause");
+    system("cls");
+
+
+}
+
+void matrixU()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrix1[x][y]=0;
+        }
+    }
+//---------------------------------------
+
+    matrix1[0][1]=1;
+    matrix1[0][5]=1;
+    matrix1[1][1]=1;
+    matrix1[1][5]=1;
+    matrix1[2][1]=1;
+    matrix1[2][5]=1;
+    matrix1[3][1]=1;
+    matrix1[3][5]=1;
+    matrix1[4][1]=1;
+    matrix1[4][5]=1;
+    matrix1[5][1]=1;
+    matrix1[5][5]=1;
+    matrix1[6][1]=1;
+    matrix1[6][2]=1;
+    matrix1[6][3]=1;
+    matrix1[6][4]=1;
+    matrix1[6][5]=1;
+
+
+    cout<<"imprimiendo valor de U\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrix1[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    system("pause");
+    system("cls");
 
 }
 
 void aprendizaje()
 {
-    char opc;
+    int opc;
     bool salir;
     salir = ((opc)=!('X'|'x'));
-    int i,j;
-    int matrix[13][13];
+
+
 
     do
     {
         cout<<"Elija una opcion a continuación\n";
-        cout<<"INSERTE LA LETRA QUE DESEA OBSERVAR!!\n";
-        cout<<"NO NUMEROS !!\n";
-        cout<<"OPC #1.- Matriz 'A', INPUT = A-a\n";
-        cout<<"OPC #2.- Matriz 'E', INPUT = E-e\n";
-        cout<<"OPC #3.- Matriz 'I', INPUT = I-i\n";
-        cout<<"OPC #4.- Matriz 'O', INPUT = O-o\n";
-        cout<<"OPC #5.- Matriz 'U', INPUT = U-u\n";
-        cout<<"OPC #6.- SALIR A MENU PRINCIPAL, INPUT = X-x\n";
+        cout<<"OPC #1.- Matriz 'A'\n";
+        cout<<"OPC #2.- Matriz 'E'\n";
+        cout<<"OPC #3.- Matriz 'I'\n";
+        cout<<"OPC #4.- Matriz 'O'\n";
+        cout<<"OPC #5.- Matriz 'U'\n";
+        cout<<"OPC #6.- SALIR A MENU PRINCIPAL\n";
         cout<<"INPUT: ";
         cin>>opc;
         system("cls");
 
         switch(opc)
         {
-
-        //DIBUJA MATRIZ
-        case 'a'|'A':
-
-        matrix[0][0]=0;
-        matrix[0][1]=0;
-        matrix[0][2]=0;
-        matrix[0][3]=0;
-        matrix[0][4]=0;
-        matrix[0][5]=0;
-        matrix[0][6]=0;
-        matrix[0][7]=0;
-        matrix[0][8]=0;
-        matrix[0][9]=0;
-        matrix[0][10]=0;
-        matrix[0][11]=0;
-        matrix[0][12]=0;
-        matrix[0][13]=0;
-
-        matrix[0][0]=0;
-        matrix[0][1]=0;
-        matrix[0][2]=0;
-        matrix[0][3]=0;
-        matrix[0][4]=0;
-        matrix[0][5]=0;
-        matrix[0][6]=0;
-        matrix[0][7]=0;
-        matrix[0][8]=0;
-        matrix[0][9]=0;
-        matrix[0][10]=0;
-        matrix[0][11]=0;
-        matrix[0][12]=0;
-        matrix[0][13]=0;
-
-        for(i=0;i<12;i+++){
-                cout<<
-            for(j=0;j<12;j++){
-
-            }
-        }
+        case 1:
+            matrixA();
             break;
-        case 'e'|'E':
+        case 2:
+            matrixE();
             break;
-        case 'i'|'I':
+        case 3:
+            matrixI();
             break;
-        case 'o'|'O':
+        case 4:
+            matrixO();
             break;
-        case 'u'|'U':
+        case 5:
+            matrixU();
             break;
-        case 'x'|'X':
+        case 6:
             cout<<"Saliendo de muestras de aprendizaje\n";
             system("pause");
             system("cls");
@@ -102,17 +296,90 @@ void aprendizaje()
 
 }
 
-
-void matrixFull()
+void matrizAcumulada()
 {
 
-    int i;
-    for(i=0; i<9; i++)
-    {
+    matrix2[0][0]=2;
+    matrix2[0][1]=1;
+    matrix2[0][2]=2;
+    matrix2[0][3]=3;
+    matrix2[0][4]=2;
+    matrix2[0][5]=1;
+    matrix2[0][6]=2;
 
-        cout<<"Text....";
+    matrix2[1][0]=2;
+    matrix2[1][1]=1;
+    matrix2[1][2]=1;
+    matrix2[1][3]=0;
+    matrix2[1][4]=1;
+    matrix2[1][5]=1;
+    matrix2[1][6]=1;
+
+    matrix2[2][0]=3;
+    matrix2[2][1]=1;
+    matrix2[2][2]=0;
+    matrix2[2][3]=0;
+    matrix2[2][4]=0;
+    matrix2[2][5]=1;
+    matrix2[2][6]=2;
+
+    matrix2[3][0]=4;
+    matrix2[3][1]=1;
+    matrix2[3][2]=1;
+    matrix2[3][3]=1;
+    matrix2[3][4]=1;
+    matrix2[3][5]=0;
+    matrix2[3][6]=3;
+
+    matrix2[4][0]=4;
+    matrix2[4][1]=1;
+    matrix2[4][2]=1;
+    matrix2[4][3]=1;
+    matrix2[4][4]=1;
+    matrix2[4][5]=1;
+    matrix2[4][6]=3;
+
+    matrix2[5][0]=3;
+    matrix2[5][1]=2;
+    matrix2[5][2]=0;
+    matrix2[5][3]=0;
+    matrix2[5][4]=0;
+    matrix2[5][5]=2;
+    matrix2[5][6]=2;
+
+    matrix2[6][0]=2;
+    matrix2[6][1]=2;
+    matrix2[6][2]=3;
+    matrix2[6][3]=3;
+    matrix2[6][4]=3;
+    matrix2[6][5]=2;
+    matrix2[6][6]=2;
+
+//---------------------------------------
+
+
+
+
+    cout<<"\t Matriz acummulada de vocales '(a,e,i,o,u)'\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrix2[x][y]<<" ";
+        }
+        cout<<endl;
     }
+    cout<<endl;
+    system("pause");
+    system("cls");
+
+
+
 }
+
+
+
 
 
 void mainMenu()
@@ -139,12 +406,12 @@ void mainMenu()
             aprendizaje();
             break;
         case 2:
-
+            matrizAcumulada();
             break;
         case 3:
             break;
         case 4:
-            cout<<"Saliendo..";
+            cout<<"Saliendo..\n";
             system("pause");
             system("cls");
             exit(0);
