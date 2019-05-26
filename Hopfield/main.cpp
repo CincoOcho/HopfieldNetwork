@@ -4,6 +4,10 @@
 using namespace std;
 char matrix1[7][7];
 int matrix2[7][7];
+int matrixInput[7][7];
+
+
+
 void matrixA()
 {
     for(int x=0; x<=6; x++)
@@ -379,7 +383,590 @@ void matrizAcumulada()
 }
 
 
+void caseC()
+{
 
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+//-----------DATA_INPUT_MANUAL_INTO_MATRIX----------------------------
+
+    matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[0][4]=1;
+    matrixInput[0][5]=1;
+    matrixInput[0][6]=1;
+
+    matrixInput[1][0]=1;
+    matrixInput[2][0]=1;
+    matrixInput[3][0]=1;
+    matrixInput[4][0]=1;
+    matrixInput[5][0]=1;
+
+    matrixInput[6][0]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+    matrixInput[6][3]=1;
+    matrixInput[6][4]=1;
+    matrixInput[6][5]=1;
+    matrixInput[6][6]=1;
+//-----------DATA_INPUT_MANUAL_INTO_MATRIX----------------------------
+
+    cout<<"imprimiendo valor de C\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+void caseD()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[1][0]=1;
+    matrixInput[1][3]=1;
+    matrixInput[2][0]=1;
+    matrixInput[2][4]=1;
+    matrixInput[3][0]=1;
+    matrixInput[3][4]=1;
+    matrixInput[4][0]=1;
+    matrixInput[4][4]=1;
+    matrixInput[5][0]=1;
+    matrixInput[5][3]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+
+
+
+
+    cout<<"imprimiendo valor de D\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+
+}
+void caseF()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[1][0]=1;
+    matrixInput[1][3]=1;
+    matrixInput[2][0]=1;
+    matrixInput[2][4]=1;
+    matrixInput[3][0]=1;
+    matrixInput[3][4]=1;
+    matrixInput[4][0]=1;
+    matrixInput[4][4]=1;
+    matrixInput[5][0]=1;
+    matrixInput[5][3]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+
+
+
+
+    cout<<"imprimiendo valor de F\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+void caseH()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+
+    cout<<"imprimiendo valor de H\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+void caseJ()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+
+
+    cout<<"imprimiendo valor de H\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+
+void caseL()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+    cout<<"imprimiendo valor de L\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+void caseP()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+    cout<<"imprimiendo valor de P\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+
+void caseS()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+
+
+    cout<<"imprimiendo valor de S\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+
+void caseT()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+
+
+    cout<<"imprimiendo valor de T\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+
+void caseV()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+    cout<<"imprimiendo valor de V\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+
+void caseX()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+
+
+
+
+    cout<<"imprimiendo valor de X\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+
+void caseZ()
+{
+
+    for(int x=0; x<=6; x++)
+    {
+        for(int y=0; y<=6; y++)
+        {
+            matrixInput[x][y]=0;
+        }
+    }
+
+//-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
+
+
+    matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[0][4]=1;
+    matrixInput[0][5]=1;
+    matrixInput[0][6]=1;
+    matrixInput[1][5]=1;
+    matrixInput[2][4]=1;
+    matrixInput[3][3]=1;
+    matrixInput[4][2]=1;
+    matrixInput[5][1]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+    matrixInput[6][3]=1;
+    matrixInput[6][4]=1;
+    matrixInput[6][5]=1;
+    matrixInput[6][6]=1;
+
+
+
+
+
+    cout<<"imprimiendo valor de Z\n"<<endl;
+
+    for(int x=0; x<7; x++)
+    {
+        for(int y=0; y<7; y++)
+        {
+            cout<<matrixInput[x][y]<<" ";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
+    matrizAcumulada();
+    system("pause");
+    system("cls");
+}
+
+void comparacion()
+{
+    char opc;
+    opc=' ';
+
+    do
+    {
+
+        cout<<"\tIntroduzca una letra para converger a una palabra ya aprendida por\n";
+        cout<<"\tla red neuronal de Hopfield \n\n";
+        cout<<"Puede insertar solamente las palabras a continuación:\n";
+        cout<<"C,D,F,H,J,L,P,S,T,V,X,Z\n";
+        cout<<"INSERTE SOLO PALABRAS MASYUSCULAS!!!\n";
+        cout<<"!!!!!SALIR INPUT= E  !!!!\n";
+        cout<<"INPUT:";
+        cin>>opc;
+        system("cls");
+
+        switch(opc)
+        {
+
+        case 'C':
+            caseC();
+            break;
+
+        case 'D':
+            caseD();
+            break;
+
+        case 'F':
+            caseF();
+            break;
+
+        case 'H':
+            caseH();
+            break;
+
+        case'J':
+            caseJ();
+            break;
+
+        case'L':
+            caseL();
+            break;
+
+        case'P':
+            caseP();
+            break;
+
+        case'S':
+            caseS();
+            break;
+
+        case'T':
+            caseT();
+            break;
+
+        case'V':
+            caseV();
+            break;
+
+        case'X':
+            caseX();
+            break;
+
+        case'Z':
+            caseZ();
+            break;
+
+        case'E':
+            //--------------------------EXIT-----------------------------
+            cout<<"SALIENDO... !!"<<endl;
+            system("pause");
+            system("cls");
+            break;
+
+        default:
+            cout<<"A ocurrido un error, intente de nuevo !!\n";
+            system("pause");
+            system("cls");
+            break;
+        }
+    }
+    while(opc!='E');
+
+
+}
 
 
 void mainMenu()
@@ -389,7 +976,7 @@ void mainMenu()
 
     do
     {
-
+        cout<<"\tMENU PRINCIPAL"<<endl;
         cout<<"Elija una opción a continuación:\n";
         cout<<"1.-Mostrar aprendizajes insertados\n";
         cout<<"2.-Ver matriz acumulada\n";
@@ -409,6 +996,7 @@ void mainMenu()
             matrizAcumulada();
             break;
         case 3:
+            comparacion();
             break;
         case 4:
             cout<<"Saliendo..\n";
@@ -420,8 +1008,6 @@ void mainMenu()
     }
     while(opc!=5);
 }
-
-
 
 
 int main()
