@@ -248,14 +248,12 @@ void matrixU()
 void aprendizaje()
 {
     int opc;
-    bool salir;
-    salir = ((opc)=!('X'|'x'));
 
 
 
     do
     {
-        cout<<"Elija una opcion a continuación\n";
+        cout<<"Elija una opcion a continuación\n\n";
         cout<<"OPC #1.- Matriz 'A'\n";
         cout<<"OPC #2.- Matriz 'E'\n";
         cout<<"OPC #3.- Matriz 'I'\n";
@@ -264,6 +262,7 @@ void aprendizaje()
         cout<<"OPC #6.- SALIR A MENU PRINCIPAL\n";
         cout<<"INPUT: ";
         cin>>opc;
+
         system("cls");
 
         switch(opc)
@@ -287,7 +286,6 @@ void aprendizaje()
             cout<<"Saliendo de muestras de aprendizaje\n";
             system("pause");
             system("cls");
-
             break;
         default:
             cout<<"Error inesperado intente de nuevo!!\n";
@@ -296,7 +294,7 @@ void aprendizaje()
         }
 
     }
-    while(salir);
+    while(opc!=6);
 
 }
 
@@ -504,19 +502,19 @@ void caseF()
     matrixInput[0][0]=1;
     matrixInput[0][1]=1;
     matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[0][4]=1;
+    matrixInput[0][5]=1;
+    matrixInput[0][6]=1;
     matrixInput[1][0]=1;
-    matrixInput[1][3]=1;
     matrixInput[2][0]=1;
-    matrixInput[2][4]=1;
     matrixInput[3][0]=1;
-    matrixInput[3][4]=1;
+    matrixInput[3][1]=1;
+    matrixInput[3][2]=1;
     matrixInput[4][0]=1;
-    matrixInput[4][4]=1;
     matrixInput[5][0]=1;
-    matrixInput[5][3]=1;
     matrixInput[6][0]=1;
-    matrixInput[6][1]=1;
-    matrixInput[6][2]=1;
+
 
 
 
@@ -553,6 +551,24 @@ void caseH()
 
 
     matrixInput[0][0]=1;
+    matrixInput[0][6]=1;
+    matrixInput[1][0]=1;
+    matrixInput[1][6]=1;
+    matrixInput[2][0]=1;
+    matrixInput[2][6]=1;
+    matrixInput[3][0]=1;
+    matrixInput[3][1]=1;
+    matrixInput[3][2]=1;
+    matrixInput[3][3]=1;
+    matrixInput[3][4]=1;
+    matrixInput[3][5]=1;
+    matrixInput[3][6]=1;
+    matrixInput[4][0]=1;
+    matrixInput[4][6]=1;
+    matrixInput[5][0]=1;
+    matrixInput[5][6]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][6]=1;
 
 
 
@@ -587,12 +603,27 @@ void caseJ()
 //-----------DATA-INPUT-MANUAL-INTO-MATRIX----------------------------
 
 
-    matrixInput[0][0]=1;
+
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[0][4]=1;
+    matrixInput[0][5]=1;
+
+    matrixInput[1][3]=1;
+    matrixInput[2][3]=1;
+    matrixInput[3][3]=1;
+    matrixInput[4][3]=1;
+    matrixInput[5][1]=1;
+    matrixInput[5][3]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+    matrixInput[6][3]=1;
 
 
 
 
-    cout<<"imprimiendo valor de H\n"<<endl;
+    cout<<"imprimiendo valor de J   \n"<<endl;
 
     for(int x=0; x<7; x++)
     {
@@ -625,6 +656,19 @@ void caseL()
 
 
     matrixInput[0][0]=1;
+    matrixInput[1][0]=1;
+    matrixInput[2][0]=1;
+    matrixInput[3][0]=1;
+    matrixInput[4][0]=1;
+    matrixInput[5][0]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+    matrixInput[6][3]=1;
+    matrixInput[6][4]=1;
+    matrixInput[6][5]=1;
+    matrixInput[6][6]=1;
+    matrixInput[6][0]=1;
 
 
     cout<<"imprimiendo valor de L\n"<<endl;
@@ -659,6 +703,20 @@ void caseP()
 
 
     matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[1][0]=1;
+    matrixInput[1][3]=1;
+    matrixInput[2][0]=1;
+    matrixInput[2][3]=1;
+    matrixInput[3][0]=1;
+    matrixInput[3][1]=1;
+    matrixInput[3][2]=1;
+    matrixInput[3][3]=1;
+    matrixInput[4][0]=1;
+    matrixInput[5][0]=1;
+    matrixInput[6][0]=1;
 
 
     cout<<"imprimiendo valor de P\n"<<endl;
@@ -694,6 +752,31 @@ void caseS()
 
 
     matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[0][4]=1;
+    matrixInput[0][5]=1;
+    matrixInput[0][6]=1;
+    matrixInput[1][0]=1;
+    matrixInput[2][0]=1;
+    matrixInput[3][0]=1;
+    matrixInput[3][1]=1;
+    matrixInput[3][2]=1;
+    matrixInput[3][3]=1;
+    matrixInput[3][4]=1;
+    matrixInput[3][5]=1;
+    matrixInput[3][6]=1;
+    matrixInput[4][6]=1;
+    matrixInput[5][6]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][1]=1;
+    matrixInput[6][2]=1;
+    matrixInput[6][3]=1;
+    matrixInput[6][4]=1;
+    matrixInput[6][5]=1;
+    matrixInput[6][6]=1;
+
 
 
 
@@ -731,6 +814,18 @@ void caseT()
 
 
     matrixInput[0][0]=1;
+    matrixInput[0][1]=1;
+    matrixInput[0][2]=1;
+    matrixInput[0][3]=1;
+    matrixInput[0][4]=1;
+    matrixInput[0][5]=1;
+    matrixInput[0][6]=1;
+    matrixInput[1][3]=1;
+    matrixInput[2][3]=1;
+    matrixInput[3][3]=1;
+    matrixInput[4][3]=1;
+    matrixInput[5][3]=1;
+    matrixInput[6][3]=1;
 
 
 
@@ -768,6 +863,21 @@ void caseV()
 
 
     matrixInput[0][0]=1;
+    matrixInput[0][6]=1;
+    matrixInput[1][0]=1;
+    matrixInput[1][6]=1;
+    matrixInput[2][0]=1;
+    matrixInput[2][1]=1;
+    matrixInput[2][5]=1;
+    matrixInput[2][6]=1;
+    matrixInput[3][1]=1;
+    matrixInput[3][2]=1;
+    matrixInput[3][4]=1;
+    matrixInput[3][5]=1;
+    matrixInput[4][2]=1;
+    matrixInput[4][3]=1;
+    matrixInput[4][4]=1;
+    matrixInput[5][3]=1;
 
 
     cout<<"imprimiendo valor de V\n"<<endl;
@@ -803,8 +913,18 @@ void caseX()
 
 
     matrixInput[0][0]=1;
-
-
+    matrixInput[0][6]=1;
+    matrixInput[1][1]=1;
+    matrixInput[1][5]=1;
+    matrixInput[2][2]=1;
+    matrixInput[2][4]=1;
+    matrixInput[3][3]=1;
+    matrixInput[4][2]=1;
+    matrixInput[4][4]=1;
+    matrixInput[5][1]=1;
+    matrixInput[5][5]=1;
+    matrixInput[6][0]=1;
+    matrixInput[6][6]=1;
 
 
     cout<<"imprimiendo valor de X\n"<<endl;
@@ -1003,10 +1123,16 @@ void mainMenu()
             system("pause");
             system("cls");
             exit(0);
+        default:
 
+            cout<<"A ocurrido un error, intente de nuevo...\n";
+            system("pause");
+            system("cls");
+
+            break;
         }
     }
-    while(opc!=5);
+    while(opc!=4);
 }
 
 
